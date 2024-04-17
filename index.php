@@ -34,23 +34,27 @@
             <!-- Structure for the cards -->
             <div class="container text-center">
                 <div class="row row-cols-3">
-                    <div class="card py-5 my-3 mx-3" v-for="(disk, index) in disks">
-                        <div class="col">
+
+                    <div class="cards card py-5 my-3 mx-3" v-for="(disk, index) in disks">
+
+                        <div class="poster col">
                             <img src="{{ disk.poster }}" alt="">
                         </div>
 
-                        <div class="col">
+                        <div class="title col">
                             {{ disk.title }}
                         </div>
 
-                        <div class="col">
+                        <div class="author col">
                             {{ disk.author }}
                         </div>
 
-                        <div class="col">
+                        <div class="year col">
                             {{ disk.year }}
                         </div>
+
                     </div>
+
 
 
                 </div>

@@ -22,3 +22,16 @@
     height: 100px;
     margin-top: 1rem;
 }
+
+.cards {
+    background-color: var(--disks-cards-bgc);
+    color: white;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.year {
+    font-size: 20px;
+}
