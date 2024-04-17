@@ -31,8 +31,30 @@
 
         <!-- main with the posters and the info of the disks -->
         <div class="main">
-
             <!-- Structure for the cards -->
+            <div class="container text-center">
+                <div class="row row-cols-3">
+                    <div class="card py-5 my-3 mx-3" v-for="(disk, index) in disks">
+                        <div class="col">
+                            <img src="{{ disk.poster }}" alt="">
+                        </div>
+
+                        <div class="col">
+                            {{ disk.title }}
+                        </div>
+
+                        <div class="col">
+                            {{ disk.author }}
+                        </div>
+
+                        <div class="col">
+                            {{ disk.year }}
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
 
 
