@@ -33,12 +33,12 @@
         <div class="main">
             <!-- Structure for the cards -->
             <div class="container text-center">
-                <div class="row row-cols-3">
+                <div class="row row-cols-4">
 
                     <div class="cards card py-5 my-3 mx-3" v-for="(disk, index) in disks">
 
-                        <div class="poster col">
-                            <img src="{{ disk.poster }}" alt="">
+                        <div class="col">
+                            <img class="poster" :src="disk.poster" alt="">
                         </div>
 
                         <div class="title col">
@@ -65,7 +65,8 @@
         <!-- CDN for Vue Js and Axios -->
         <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js'
             integrity='sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg=='
-            crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+            crossorigin='anonymous' referrerpolicy='no-referrer'>
+            </script>
 
         <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
 

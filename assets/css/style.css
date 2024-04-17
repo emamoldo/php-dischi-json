@@ -7,7 +7,7 @@
 
 .main {
     background-color: var(--disks-main-bgc);
-    height: 815px;
+    height: 850px;
 }
 
 .header {
@@ -26,6 +26,8 @@
 .cards {
     background-color: var(--disks-cards-bgc);
     color: white;
+    display: flex;
+    gap: 1rem;
 }
 
 .title {
@@ -34,4 +36,9 @@
 
 .year {
     font-size: 20px;
+}
+
+.poster {
+    height: 125px;
+    width: 125px;
 }
