@@ -1,7 +1,4 @@
 <?php 
-    $disk_container = file_get_contents('disks.json');
-    var_dump($disk_container);
-    $disks_contents = json_encode($disk_container);
 
 ?>
 
@@ -17,17 +14,17 @@
 <body>
     
 <div id="app">
-<!-- <ul>
-    <li v-for="(disk, index) in disks">
-    <span>
-        {{ disk.title }}
-        {{ disk.author }}
-        {{ disk.year }}
-        {{ disk.poster }}
-        {{ disk.genre }}
-    </span>
-    </li>
-</ul> -->
+    <ul>
+        <li v-for="(disk, index) in disks">
+        <span>
+            <img src="{{ disk.poster }}" alt="">
+            {{ disk.title }}
+            {{ disk.author }}
+            {{ disk.year }}
+            {{ disk.genre }}
+        </span>
+        </li>
+    </ul>
 </div>
 
 
