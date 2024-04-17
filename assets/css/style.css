@@ -1,0 +1,24 @@
+:root {
+    --disk-heder: #06131f;
+    --disks-main-bgc: #1d2d3c;
+    --disks-cards-bgc: #112030;
+}
+
+
+.main {
+    background-color: var(--disks-main-bgc);
+    height: 815px;
+}
+
+.header {
+    height: 150px;
+    background-color: var(--disk-heder);
+}
+
+
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin-top: 1rem;
+}
