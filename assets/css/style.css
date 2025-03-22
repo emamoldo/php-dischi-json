@@ -4,10 +4,9 @@
     --disks-cards-bgc: #112030;
 }
 
-
 .main {
     background-color: var(--disks-main-bgc);
-    height: 850px;
+    height: 1000px;
 }
 
 .header {
@@ -18,7 +17,7 @@
 
 
 .logo {
-    width: 300px;
+    width: 250px;
     height: 100px;
     margin-top: 1rem;
 }
@@ -28,6 +27,7 @@
     color: white;
     display: flex;
     gap: 1rem;
+    width: 250px;
 }
 
 .title {

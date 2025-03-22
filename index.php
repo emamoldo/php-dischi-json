@@ -30,7 +30,7 @@
 
 
         <!-- main with the posters and the info of the disks -->
-        <div class="main">
+        <div class="main py-5">
             <!-- Structure for the cards -->
             <div class="container text-center">
                 <div class="row row-cols-4">
